@@ -1,6 +1,6 @@
 plugin: kubevirt.core.kubevirt
 connections:
-    #validate_certs: false
 - namespaces:
   - openshift-cnv
-- host: https://172.30.0.1:443
+  host: https://172.30.0.1:443
+  validate_certs: false
