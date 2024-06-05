@@ -1,4 +1,5 @@
 plugin: kubevirt.core.kubevirt
 connections:
-- host: https://172.30.0.1:443
-  validate_certs: false
+  # validate_certs: false
+  - namespaces:
+     - openshift-cnv
