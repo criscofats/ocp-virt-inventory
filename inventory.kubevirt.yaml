@@ -1,5 +1,4 @@
 plugin: kubevirt.core.kubevirt
 connections:
-  # validate_certs: false
-  - namespaces:
-     - demo
+- host: https://172.30.0.1:8443
+  validate_certs: false
