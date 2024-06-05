@@ -1,5 +1,4 @@
 plugin: kubevirt.core.kubevirt
 connections:
-  # validate_certs: false
-  - namespaces:
-     - openshift-cnv
+  - validate_certs: false
+    namespaces: openshift-cnv
