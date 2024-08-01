@@ -1,4 +1,5 @@
 plugin: kubevirt.core.kubevirt
+host: https://api.magpie.ephemeralpursuit.com:6443
 connections:
   # validate_certs: false
   - namespaces:
